@@ -1,0 +1,38 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.3/dist/web3.min.js"></script>
+    <script src="/js/crypto.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voto blockchain (TESTNET)</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Smart Contract para votação</h1>
+    <button id="connectMetamaskButton">Conectar Metamask</button>
+    <input id="account">
+    <h2>Pergunta Exemplo</h2>
+    <form id="voteForm">
+        <label for="votingOption">1 = Sim / 2 = Não: </label>
+        <select name="votingOption" id="votingOption">
+        </select>
+        <button type="submit">VOTAR</button>
+    </form>
+
+    <h2>Obter informações da Votação</h2>
+    <form id="getVotingForm">
+        <button type="submit">Obter Informações</button>
+    </form>
+
+    <h2>Resultado:</h2>
+    <div id="result">
+      <label for="voto1">Sim: </label>
+        <input type="number" id="voto1" name="voto1" disabled>
+
+        <label for="voto2">Não: </label>
+        <input type="number" id="voto2" name="voto2" disabled>
+    </div>
+</body>
+</html>

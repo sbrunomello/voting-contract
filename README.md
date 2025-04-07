@@ -2,6 +2,12 @@
 
 This project is a decentralized voting platform based on smart contracts developed in Solidity. It allows for the creation of voting questions and secure vote casting using Ethereum. A basic frontend connects to the blockchain via Web3.js and Metamask.
 
+## 🔗 Smart Contract Reference
+
+The smart contract used by this frontend is available here:  
+👉 [VotingContract on GitHub](https://github.com/sbrunomello/VotingContract)
+
+
 ## 🧠 Features
 
 - Create voting questions with two options.
